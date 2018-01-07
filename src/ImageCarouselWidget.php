@@ -113,12 +113,12 @@ class ImageCarouselWidget extends Widget {
               }
             });
     
-            $("#'.$this->id.'.prevButton").bind("click", function () {
+            $("#'.$this->id.' .prevButton").bind("click", function () {
               carousel.prev();
               return false
             });
     
-            $("#'.$this->id.'.nextButton").bind("click", function () {
+            $("#'.$this->id.' .nextButton").bind("click", function () {
               carousel.next();
               return false;
             });
