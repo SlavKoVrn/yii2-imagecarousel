@@ -1,0 +1,26 @@
+{
+    "name": "slavkovrn/yii2-imagecarousel",
+    "description": "The Yii2 extension uses jQuery jquery.carousel-1.1.min.js and makes image carousel from php array of structure defined.",
+    "type": "yii2-extension",
+    "keywords": ["Yii2","extension","image","carousel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Viacheslav Kolesnikov",
+            "email": "slavko.chita@gmail.com",
+            "homepage": "http://yii2.kadastrcard.ru"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/SlavKoVrn/yii2-imagecarousel.git"
+    },
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "minimum-stability" : "dev",
+    "autoload": {
+        "psr-4": {
+            "slavkovrn\\imagecarousel\\": "src/"
+        }
+    }
+}
